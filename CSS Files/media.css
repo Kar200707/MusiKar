@@ -1,0 +1,107 @@
+@media screen and (max-width: 996px) {
+   .img_player {
+      height: 40px;
+      width: 40px;
+   }
+}
+@media screen and (max-width: 918px) {
+   .repeat-track,
+   .random-track {
+      font-size: 18px;
+      margin: 0 10px;
+   }
+   .slider_container_volume {
+      display: flex;
+      align-items: center;
+      width: 15%;
+      margin: 0 10px;
+      justify-content: end;
+  }
+}
+@media screen and (max-width: 826px) {
+   .text_details_music {
+      width: 70px;
+   }
+   .slider_container_volume {
+      display: none;
+  }
+}
+@media screen and (max-width: 720px) {
+   .bar_lists {
+      display: none;
+   }
+   .bar_Playlists {
+      width: 100%;
+   }
+   .scroll_box {
+      padding: 30px 0;
+   }
+   .rec_tracks_block {
+      padding-left: 25px;
+   }
+   .title_popular {
+      padding-left: 25px;
+   }
+   .line_box_playlist {
+      padding-left: 25px;
+   }
+}
+@media screen and (max-width: 600px) {
+   .wrapper-mobile {
+      display: block;
+   }
+   .wrapper {
+      display: none;
+   }
+   .details-mobile {
+      display: inline-block;
+      position: absolute;
+      right: 0;
+      bottom: 10px;
+   }
+   .music_inform-mobile {
+      width: 100%;
+   }
+   .repeat-track-mobile,
+   .random-track-mobile {
+      display: none;
+   }
+   .slider_container-mobile {
+      display: none;
+   }
+   .details-block {
+      margin: 10px 0;
+      width: 100%;
+   }
+   .buttons-Mobile {
+      margin-bottom: 5px;
+   }
+}
+@media screen and (max-width: 444px) {
+   .filter_menu_panel {
+      justify-content: center;
+      padding: 2px;
+   }
+   .search_bar {
+      display: none;
+   }
+   .logo {
+      font-size: 30px;
+   }
+}
+@media screen and (max-width: 367px) {
+   .img_player-mobile {
+      margin: 0;
+   }
+   .prev-track-mobile > .fa-step-backward,
+   .next-track-mobile > .fa-step-forward {
+      margin: 10px;
+   }
+   .buttons-Mobile {
+      margin-bottom: 10px;
+   }
+   .playpause-track-mobile > i.fa-play-circle,
+   .playpause-track-mobile > i.fa-pause-circle {
+      font-size: 50px;
+   }
+}
