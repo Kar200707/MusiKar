@@ -1,0 +1,9 @@
+.parent_block {
+  display: flex;
+}
+
+app-player {
+  width: 100%;
+  position: absolute;
+  transition: .5s;
+}

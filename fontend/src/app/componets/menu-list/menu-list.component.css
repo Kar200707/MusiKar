@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Dela+Gothic+One&display=swap');
+
+.menu-block {
+  padding-top: 35px;
+  background-color: #212121;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.logo-box {
+  margin-left: 32px;
+}
+
+h1 {
+  color: white;
+  font-family: 'Dela Gothic One', cursive;
+  letter-spacing: 2px;
+}
+
+nav {
+  margin-top: 40px;
+  overflow-y: scroll;
+  padding-bottom: 112px;
+}
+
+nav::-webkit-scrollbar {
+  display: none;
+}
+
+nav > .nav-block {
+  display: flex;
+  align-items: center;
+  padding: 12px 56px 12px 32px;
+}
+
+nav > .nav-block >  span {
+  color: #FFF;
+  font-family: Manrope;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  margin-left: 16px;
+}
+
+.avtive-nav {
+  background: linear-gradient(270deg, rgba(255, 255, 255, 0.06) 0%, rgba(255, 255, 255, 0.00) 100%);
+  position: relative;
+}
+
+.avtive-nav:after {
+    content: '';
+    position: absolute;
+    right: 0;
+    width: 6px;
+    height: 48px;
+    border-radius: 3px 0px 0px 3px;
+    background: #1DB954;
+    margin-left: 147px;
+}
+
+.titles-nav-menu {
+  color: rgba(255, 255, 255, 0.72);
+  font-family: Manrope;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 1.92px;
+  text-transform: uppercase;
+  margin: 40px 0 8px 32px;
+}

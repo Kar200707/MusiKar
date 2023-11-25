@@ -1,0 +1,107 @@
+.global_block {
+  padding: 32px;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background-color: rgba(0, 0, 0, 0.57);
+  position: relative;
+  backdrop-filter: blur(50px);
+  -webkit-backdrop-filter: blur(50px);
+}
+
+app-home-block::-webkit-scrollbar {
+  display: none;
+}
+
+.main-layer {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.panel_management {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  top: 0;
+  left: 0;
+  padding: 10px 32px 10px 32px;
+  width: 100%;
+  position: absolute;
+  background-color: rgba(18, 18, 18, 0.89);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  z-index: 999;
+}
+
+.back-block {
+  display: flex;
+  align-items: center;
+}
+
+.back-block > div {
+  padding: 15px 19px 12px 19px;
+  border-radius: 12px;
+  background-color: #212121;
+}
+
+.back-block > span {
+  color: rgba(255, 255, 255, 0.50);
+  font-family: Manrope;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  padding: 0 12px 0 24px;
+}
+
+.back-block > h5 {
+  color: #FFF;
+  font-family: Manrope;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  margin-left: 12px;
+}
+
+.search_input_block {
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.search_input_block > label > input {
+  padding: 14px 48px;
+  border-radius: 12px;
+  background-color: #212121;
+  outline: none;
+  border: none;
+  width: 318px;
+  color: #ffffff;
+  font-family: Manrope;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.search_input_block > label > input::placeholder {
+  color: #797979;
+  font-family: Manrope;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.search_input_block > label > svg {
+  position: absolute;
+  top: 12px;
+  left: 16px;
+}
+
+.search_input_block > div {
+  padding: 11px 12px 7px 12px;
+  border-radius: 12px;
+  background-color: #212121;
+  margin-left: 24px;
+}

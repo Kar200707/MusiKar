@@ -1,0 +1,274 @@
+.home-block {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  margin-top: 90px;
+}
+
+.popular-art-background {
+  width: 100%;
+  padding: 52px 10px 0 40px;
+  background-size: cover;
+  border-radius: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: rgba(42, 42, 42, 0.82);
+}
+
+.popular-art-background > img {
+  width: 50%;
+  height: 241px;
+  object-fit: cover;
+  object-position: 0 -35px;
+}
+
+.art-info {
+  margin-bottom: 32px;
+}
+
+.art-info > .verified-art {
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.verified-art > svg + svg {
+  position: absolute;
+  top: 5px;
+  left: 5px;
+}
+
+.verified-art > h3 {
+  color: rgba(255, 255, 255, 0.72);
+  font-family: Manrope;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  margin-left: 12px;
+}
+
+.art-info > .popular-art-name {
+  color: #FFF;
+  font-family: Manrope;
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.art-info > .art-monthly_list {
+  display: flex;
+  align-items: center;
+  margin-top: 16px;
+}
+
+.art-monthly_list > b {
+  color: #FFF;
+  font-family: Manrope;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  margin-left: 12px;
+}
+
+.art-monthly_list > p {
+  color: rgba(255, 255, 255, 0.72);
+  font-family: Manrope;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-left: 4px;
+}
+
+.art-info > .play-button-block {
+  display: flex;
+  align-items: center;
+  margin-top: 32px;
+}
+
+.play-button-block > .play-button {
+  border: none;
+  text-transform: uppercase;
+  padding: 12px 24px;
+  color: #FFF;
+  font-family: Manrope;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 0.64px;
+  border-radius: 40px;
+  background-color: #1DB954;
+  transition: .2s;
+}
+
+.play-button-block > .play-button:active {
+  scale: .95;
+}
+
+.play-button-block > .following-button {
+  padding: 12px 24px 12px 16px;
+  background-color: transparent;
+  border-radius: 40px;
+  border: 1px solid #FFF;
+  display: flex;
+  align-items: center;
+  margin-left: 12px;
+  transition: .2s;
+}
+
+
+.play-button-block > .following-button > p {
+  color: #FFF;
+  font-family: Manrope;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 0.64px;
+  text-transform: uppercase;
+  margin-left: 10px;
+}
+
+.play-button-block > .following-button:hover {
+  background-color: #212121;
+  border-color: #212121;
+}
+
+.play-button-block > .following-button:active {
+  scale: .95;
+}
+
+
+.popular-terakcs {
+  margin-top: 32px;
+  display: flex;
+  flex-direction: column;
+}
+
+.popular-terakcs > .popular-text-block {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.popular-terakcs > .popular-text-block > h3 {
+  color: #FFF;
+  font-family: Manrope;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+
+.popular-terakcs > .popular-text-block > a {
+  color: #1DB954;
+  text-align: right;
+  font-family: Manrope;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.popular-terakcs > .top-track-block {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 16px 0;
+  border-bottom: 1px solid #4D4D4D;
+}
+
+.popular-terakcs > .top-track-block:hover {
+  background:
+    linear-gradient(90deg, rgba(255, 255, 255, 0.00) 0%,
+    rgba(255, 255, 255, 0.12) 35.43%,
+    rgba(255, 255, 255, 0.00) 100%);
+}
+
+.popular-terakcs > .top-track-block:hover
+> .tracks-infos > span {
+  display: none;
+}
+
+.popular-terakcs > .top-track-block:hover
+> .tracks-infos > .track-name {
+  display: block;
+}
+
+.popular-terakcs > .top-track-block:hover
+> .tracks-infos > svg {
+  display: block;
+}
+
+.popular-terakcs > .top-track-block:hover
+> .tracks-infos > .track-img {
+  margin-left: 15px;
+}
+
+.popular-terakcs > .top-track-block > .tracks-infos > span {
+  color: #FFF;
+  text-align: center;
+  font-family: Manrope;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-left: 5px;
+  width: 10px;
+}
+
+.popular-terakcs > .top-track-block > .tracks-infos {
+  display: flex;
+  align-items: center;
+}
+
+.popular-terakcs > .top-track-block >
+.tracks-infos > .track-img {
+  border-radius: 12px;
+  background: lightgray 50% / cover no-repeat;
+  width: 54px;
+  height: 54px;
+  object-fit: cover;
+  object-position: center;
+  margin-left: 24px;
+}
+
+.popular-terakcs > .top-track-block >
+.tracks-infos > .track-name {
+  margin-left: 16px;
+  width: 100%;
+}
+
+.track-details-block {
+  display: flex;
+  align-items: center;
+}
+
+.track-details-block > div {
+  display: flex;
+  align-items: center;
+}
+
+.track-details-block > div + div {
+  margin-left: 70px;
+}
+
+.track-details-block > div > p {
+  color: #FFF;
+  font-family: Manrope;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-left: 12px;
+}
+
+.track-details-block > svg {
+  margin-left: 60px;
+}

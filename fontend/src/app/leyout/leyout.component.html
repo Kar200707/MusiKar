@@ -1,0 +1,9 @@
+<div>
+  <div class="parent_block">
+    <app-menu-list style="width: 27%"></app-menu-list>
+    <app-global-block style="width: 100%"></app-global-block>
+    <app-player
+      [style.bottom]="!isNaN(audioController.audio.duration) ? '0' : '-120px'"
+    ></app-player>
+  </div>
+</div>
